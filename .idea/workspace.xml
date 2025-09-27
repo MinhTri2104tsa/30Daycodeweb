@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67bc0942-9b46-42f5-a6b9-f8f2558105cf" name="Changes" comment="Complete Profile Card day2">
-      <change afterPath="$PROJECT_DIR$/KeyDown Event/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KeyDown Event/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KeyDown Event/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search Tags/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search Tags/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search Tags/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,9 @@
       <workItem from="1758711596020" duration="3785000" />
       <workItem from="1758796293422" duration="4448000" />
       <workItem from="1758814884852" duration="27000" />
-      <workItem from="1758853402030" duration="3871000" />
+      <workItem from="1758853402030" duration="4235000" />
+      <workItem from="1758894401014" duration="68000" />
+      <workItem from="1758950379285" duration="4870000" />
     </task>
     <task id="LOCAL-00001" summary="step1: các thành phần cơ bản">
       <option name="closed" value="true" />
