@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67bc0942-9b46-42f5-a6b9-f8f2558105cf" name="Changes" comment="Complete Profile Card day2" />
+    <list default="true" id="67bc0942-9b46-42f5-a6b9-f8f2558105cf" name="Changes" comment="Basic Form Register Validate day8 , form input button, checkEmail, length, password, end" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +86,7 @@
       <workItem from="1758853402030" duration="4235000" />
       <workItem from="1758894401014" duration="68000" />
       <workItem from="1758950379285" duration="5319000" />
-      <workItem from="1759064711941" duration="4356000" />
+      <workItem from="1759064711941" duration="4654000" />
     </task>
     <task id="LOCAL-00001" summary="step1: các thành phần cơ bản">
       <option name="closed" value="true" />
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758710239717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Basic Form Register Validate day8 , form input button, checkEmail, length, password, end">
+      <option name="closed" value="true" />
+      <created>1759069333520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759069333520</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +157,8 @@
     <MESSAGE value="step1: các thành phần cơ bản" />
     <MESSAGE value="step2: Hoàn thành Product Card" />
     <MESSAGE value="Complete Profile Card day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Profile Card day2" />
+    <MESSAGE value="Basic Form Register Validate day8 , form input button, checkEmail, length, password" />
+    <MESSAGE value="Basic Form Register Validate day8 , form input button, checkEmail, length, password, end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Form Register Validate day8 , form input button, checkEmail, length, password, end" />
   </component>
 </project>
