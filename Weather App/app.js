@@ -11,7 +11,7 @@ var content = document.querySelector('.content');
 
 
 async function changeWeatherUI(capitalSearch){
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${capitalSearch}&appid=ae960d7d9c58a1c08894b0ff36014383`
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${capitalSearch}&appid=process.env.KEY_WEATHER`
 
     let data = await fetch(apiUrl).then(res => res.json())
     if(data.cod == 200){
