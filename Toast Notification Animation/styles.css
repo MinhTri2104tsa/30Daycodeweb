@@ -56,16 +56,35 @@ body{
     border-left: 6px solid var(--success-color);
     overflow: hidden;
     animation: slideShow 2s ease forwards;
+    margin-bottom: 10px;
 }
 .toast i{
     margin: 0 10px;
 }
 
 .toast.success{
+    border-left: 6px solid var(--success-color);
     background: var(--success-light);
-
-
 }
+.toast.warning{
+    border-left: 6px solid var(--warning-color);
+    background: var(--warning-light);
+}
+.toast.error{
+    border-left: 6px solid var(--error-color);
+    background: var(--error-light);
+}
+
+.toast.success .countdown {
+    background: var(--success-color);
+}
+.toast.warning .countdown {
+    background: var(--warning-color);
+}
+.toast.error .countdown {
+    background: var(--error-color);
+}
+
 .toast .countdown{
     background: var(--success-color);
     position: absolute;
