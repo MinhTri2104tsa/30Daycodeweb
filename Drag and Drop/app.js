@@ -19,7 +19,7 @@ boxes.forEach(box => {
         this.appendChild(currentTarget);
     })
     box.addEventListener('drop', function (e) {
-        if(!cd d:\cdbox.querySelector('.target')){
+        if(!box.querySelector('.target')){
             this.appendChild(currentTarget);
         }
     })
