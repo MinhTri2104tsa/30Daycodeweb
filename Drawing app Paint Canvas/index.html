@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tool">
+        <input id="color" type="color">
+        <button id="eraser">
+            <i class="bx bx-eraser"></i>
+        </button>
+        <button id="decrease">
+            -
+        </button>
+        <span id="size">
+            20
+        </span>
+        <button id="increase">
+            +
+        </button>
+        <a id="save" download="tenfile.png">
+            <i class="bx bxs-save"></i>
+        </a>
+        <button id="clear">
+            <i class="bx bx-window-close"></i>
+        </button>
+    </div>
+    <div class="container">
+        <canvas width="600" height="600"></canvas>
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>
