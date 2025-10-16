@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67bc0942-9b46-42f5-a6b9-f8f2558105cf" name="Changes" comment="remove code error">
-      <change afterPath="$PROJECT_DIR$/Hover Board/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hover Board/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hover Board/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custom Video Player/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custom Video Player/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custom Video Player/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +133,9 @@
       <workItem from="1760345054149" duration="13000" />
       <workItem from="1760451854740" duration="5142000" />
       <workItem from="1760500942852" duration="88000" />
-      <workItem from="1760535954597" duration="2123000" />
+      <workItem from="1760535954597" duration="2260000" />
+      <workItem from="1760579199913" duration="1211000" />
+      <workItem from="1760619288375" duration="2495000" />
     </task>
     <task id="LOCAL-00001" summary="step1: các thành phần cơ bản">
       <option name="closed" value="true" />
