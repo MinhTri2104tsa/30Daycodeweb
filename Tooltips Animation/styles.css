@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --facebook-color: #3b5999;
+    --twitter-color: #1da1f2;
+    --google-color: #db4437;
+    --linkedin-color: #0077b5;
+    --youtube-color: #ff0000;
+    --instagram-color: #e1306c;
+    --github-color: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.25s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 0 10px;
+}
+.tooltip{
+    position: absolute;
+    padding: 0 30px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    color: white;
+    transition: all 0.5s;
+    opacity: 0;
+    top: 0;
+    pointer-events: none;
+}
+.tooltip::before{
+    content: '';
+    display: block;
+    height: 15px;
+    width: 15px;
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, 50%) rotate(45deg);
+
+}
+.icon:hover{
+    background: var(--facebook-color);
+    color: white;
+}
+.icon:hover .tooltip{
+    top: -70px;
+    opacity: 1;
+}
+.facebook.icon:hover,
+.facebook .tooltip::before,
+.facebook .tooltip{
+    background: var(--facebook-color);
+
+}
+.twitter.icon:hover,
+.twitter .tooltip::before,
+.twitter .tooltip{
+    background: var(--twitter-color);
+}
+.github.icon:hover,
+.github .tooltip::before,
+.github .tooltip{
+    background: var(--github-color);
+}
+.youtube.icon:hover,
+.youtube .tooltip::before,
+.youtube .tooltip{
+    background: var(--youtube-color) !important;
+}
+.instagram.icon:hover,
+.instagram .tooltip::before,
+.instagram .tooltip{
+    background: var(--instagram-color);
+}
